@@ -13,11 +13,8 @@ def user_name():
 
 user_name()
 
-
 # Data collections
 # dictionaries can have all typs of data collections
-
-
 
 # Dictionaries
 
@@ -36,7 +33,6 @@ print(shopping_items)
 # diff between list and tuples - lists are mutable vs tuples which are immutable
 
 # list syntax []  tuples ()  dict {}
-
 
 
 a= list(range(1,100)) # print a will give list of 1>100
@@ -71,4 +67,3 @@ for item in list:
         print("not pets")
 
 
-#
