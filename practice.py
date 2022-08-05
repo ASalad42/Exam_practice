@@ -39,19 +39,21 @@ a= list(range(1,100)) # print a will give list of 1>100
 print(sum(a)) # sum of everything in that range
 
 print(4 % 2)
-count=0
-#for n in range(1,100): # use modulo operator to see if something is a mupltiple of another
-    #if n % 2 ==0:
-        #print ("even")
-   # else:
-        #print ("odd")
+
+#for n in range(1,100): # use modulo operator to see if something is a mupltiple of #another
+  #  if n % 2 ==0:
+      #  print ("even")
+    #else:
+       # print ("odd")
 
 def numbers():
+    count=0
     for n in range(1,100):
         if n % 2 ==0:
-            return True
+            print("even")
         else:
-            return False
+            total1 =count + n
+            print(total1)
 
 print(numbers())
 
@@ -67,3 +69,8 @@ for item in list:
         print("not pets")
 
 
+# bill ={5:4} - this is a dictionary
+
+# correct supr index is
+    # super().__init__()
+    pass
