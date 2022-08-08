@@ -23,3 +23,7 @@ print(add(a,b))
 print(subtracrt(a,b))
 print(multiply(a,b))
 print(divide(a,b))
+
+
+a="aaaa"
+print(type(a))

@@ -6,7 +6,7 @@ index = ["one","two",3,4,5]
 print(index[4]) # will print 5
 index[1] = 2 # changes value "two" to number 2
 print(index)
-
+index.insert(1,"lemon") # how to insert something
 index.append("car")
 print(index)
 index.remove("car")
@@ -39,4 +39,7 @@ print(greeting[:-5]) # get from start to position -5 (inc)
 
 
 print(greeting.strip()) #returns without whitespaces
+
+txt = "hello world"
+print(txt.replace("h","j")) # replace character with character
 
