@@ -22,14 +22,13 @@ def find_smallest_interval(numbers):
     elif len(numbers) > 100000:
         return "too long"
     else:
+        list1=[]
+        x=0
         for a in numbers:
             for b in numbers:
                 if a != b:
-                    return min(abs(a-b))
-                else:
+                    list1.append(abs(a-b)) # put into list the absolute diffrences
+                    x = min(list1) # from list of differences which is the smallest 
+        return x
 
-
-   # numbers.sort()
-    #return numbers[1]-numbers[0]
-
-print(find_smallest_interval([1,6,4,-8,2]))
+print(find_smallest_interval([3,50,9,-15,16,20]))
