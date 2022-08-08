@@ -22,10 +22,7 @@ def find_smallest_interval(numbers):
     elif len(numbers) > 100000:
         return "too long"
     else:
-        num = []
-        for i in numbers:
-            for j in numbers:
-                if
+
 
    # numbers.sort()
     #return numbers[1]-numbers[0]
